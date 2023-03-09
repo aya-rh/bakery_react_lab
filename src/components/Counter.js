@@ -10,11 +10,11 @@ const Counter = ({title, image, ingredients, price, rating, sold, onButtonClick}
     return(
         <div className="cake">
             <h3>{title}</h3>
-            <img src="{image}" alt="Cake Picture" />
+            <img src={image} alt="Cake Picture" />
             <p><strong>Ingredients: </strong>{ingredients}</p>
-            <p>Price: £{price}</p>
-            <p>Rating: {rating}</p>
-            <p>Sold: {sold}</p>
+            <p><strong>Price: </strong>£{price}</p>
+            <p><strong>Rating: </strong> {rating}</p>
+            <p><strong>Sold: </strong> {sold}</p>
             <button className='button' onClick={handleSellClick}>Sell Cake</button>
         </div>
     );
