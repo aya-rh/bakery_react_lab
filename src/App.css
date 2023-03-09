@@ -42,8 +42,8 @@
 }
 
 .cakes_available>h2{
-  padding-left: 3rem;
-  text-align: left;
+  text-align: center;
+  color: #894e3f;
 }
 
 .cakes_available>.totals{

@@ -1,10 +1,10 @@
 import '../App.css';
 
-const Counter = ({title, image, ingredients, price, rating, sold, onButtonClick}) => {
+const Counter = ({title, image, ingredients, price, rating, sold, onButtonClick, onSellClick}) => {
     
     const handleSellClick = () => {
         onButtonClick(sold + 1);
-        // setTotalSales(totalSales + price); 
+        onSellClick(); 
     }
 
     return(
