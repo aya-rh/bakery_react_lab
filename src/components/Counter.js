@@ -4,7 +4,7 @@ const Counter = ({title, image, ingredients, price, rating, sold, onButtonClick}
     
     const handleSellClick = () => {
         onButtonClick(sold + 1);
-        // setTotalSales(totalSales + price); 
+        //setTotalSales(totalSales + price); 
     }
 
     return(

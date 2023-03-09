@@ -22,7 +22,7 @@ const CakeContainer = () => {
             <Counter title={"Carrot Cake"} image="https://www.spoonforkbacon.com/wp-content/uploads/2021/03/carrot_cake_cream_cheese_frosting.jpg" ingredients={"carrots, walnuts, oil, cream cheese, flour, sugar"} price={8} rating={5} sold={carrotCakeSold} onButtonClick={setCarrotCakeSold}/>
             <div className='totals'>
             <p id="total-sold"><strong>Total cakes sold: </strong>{victoriaSpongeCakeSold + teaLoafCakeSold + carrotCakeSold}</p>
-            <p id="total-sales"><strong>Total sales from cakes sold: </strong>{totalSales}</p>
+            <p id="total-sales"><strong>Total sales made: </strong>{totalSales}</p>
             </div>
         </div>
     );
