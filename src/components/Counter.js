@@ -1,4 +1,4 @@
-const Counter = ({title, ingredients, price, rating, sold, onButtonClick}) => {
+const Counter = ({title, image, ingredients, price, rating, sold, onButtonClick}) => {
     const handleBuyerClick = () => {
         onButtonClick(sold + 1);
     }
@@ -6,11 +6,12 @@ const Counter = ({title, ingredients, price, rating, sold, onButtonClick}) => {
     return(
         <div>
             <h3>{title}</h3>
+            <img src="image" alt="Cake Picture" />
             <p><strong>Ingredients: </strong>{ingredients}</p>
             <p>Price: £{price}</p>
             <p>Rating: {rating}</p>
             <p>Sold: {sold}</p>
-            <button onClick={handleBuyerClick}>Buy Cake</button>
+            <button onClick={handleBuyerClick}>Sell Cake</button>
         </div>
     );
 }
