@@ -10,7 +10,7 @@ const CakeContainer = () => {
 
     const [totalSales, setTotalSales] = useState(0);
 
-    // const handleCakeSale = (price) => {
+    // handleCakeSale = (price) => {
     //     setTotalSales(totalSales + price);
     // }
 
