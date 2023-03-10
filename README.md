@@ -1,4 +1,4 @@
-# Lab - Bakery Lab Brief
+# Lab - The BNTA Bakery
 
 
 In this exercise we're going to start building an app we'll develop further as we learn more about React. Ultimately the user will be able to see a range of cake recipes and be able to add their own, but for now we're going to display three pre-selected recipes on the screen.
